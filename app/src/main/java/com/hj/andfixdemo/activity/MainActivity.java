@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public static boolean isForeground = false;
 
     public static final int MSG_WHAT_DOWNLOAD = 0x111;
-
+// handler
     private Handler mHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
